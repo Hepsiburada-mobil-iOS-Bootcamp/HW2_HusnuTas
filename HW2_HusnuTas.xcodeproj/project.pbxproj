@@ -27,6 +27,8 @@
 		BC9F25122708AAC5003C53AA /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9F25112708AAC5003C53AA /* UIView+Extensions.swift */; };
 		BC9F25152708D418003C53AA /* ActionModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9F25142708D418003C53AA /* ActionModule.swift */; };
 		BC9F25172708D44F003C53AA /* ActionModuleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9F25162708D44F003C53AA /* ActionModuleData.swift */; };
+		BC9F251A2709CA0F003C53AA /* LabelPackComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9F25192709CA0F003C53AA /* LabelPackComponent.swift */; };
+		BC9F251C2709CA1B003C53AA /* LabelPackComponentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9F251B2709CA1B003C53AA /* LabelPackComponentData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +73,8 @@
 		BC9F25112708AAC5003C53AA /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		BC9F25142708D418003C53AA /* ActionModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionModule.swift; sourceTree = "<group>"; };
 		BC9F25162708D44F003C53AA /* ActionModuleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionModuleData.swift; sourceTree = "<group>"; };
+		BC9F25192709CA0F003C53AA /* LabelPackComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelPackComponent.swift; sourceTree = "<group>"; };
+		BC9F251B2709CA1B003C53AA /* LabelPackComponentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelPackComponentData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +159,7 @@
 		BC771E8B2703BE6500BBBC6A /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				BC9F25182709C9F1003C53AA /* LabelPackComponent */,
 				BC9F25132708D400003C53AA /* ActionModuleComponent */,
 				BC771E8C2703BE6E00BBBC6A /* ActionButtonComponent */,
 			);
@@ -214,6 +219,15 @@
 				BC9F25162708D44F003C53AA /* ActionModuleData.swift */,
 			);
 			path = ActionModuleComponent;
+			sourceTree = "<group>";
+		};
+		BC9F25182709C9F1003C53AA /* LabelPackComponent */ = {
+			isa = PBXGroup;
+			children = (
+				BC9F25192709CA0F003C53AA /* LabelPackComponent.swift */,
+				BC9F251B2709CA1B003C53AA /* LabelPackComponentData.swift */,
+			);
+			path = LabelPackComponent;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -350,9 +364,11 @@
 				BC771E602703BAA900BBBC6A /* ViewController.swift in Sources */,
 				BC771E5C2703BAA900BBBC6A /* AppDelegate.swift in Sources */,
 				BC771E912703CC0500BBBC6A /* BaseView.swift in Sources */,
+				BC9F251C2709CA1B003C53AA /* LabelPackComponentData.swift in Sources */,
 				BC9F25172708D44F003C53AA /* ActionModuleData.swift in Sources */,
 				BC9F250C2707906C003C53AA /* ActionButtonType.swift in Sources */,
 				BC771E5E2703BAA900BBBC6A /* SceneDelegate.swift in Sources */,
+				BC9F251A2709CA0F003C53AA /* LabelPackComponent.swift in Sources */,
 				BC9F250E2707A77C003C53AA /* GenericBaseView.swift in Sources */,
 				BC9F25152708D418003C53AA /* ActionModule.swift in Sources */,
 				BC9F25122708AAC5003C53AA /* UIView+Extensions.swift in Sources */,
