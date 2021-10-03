@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  HW2_HusnuTas
+
+  Created by Hüsnü Taş on 3.10.2021.
+  
+*/
+
+"cameraPermissionTitle" = "Kamera İzni";
+"cameraPermissionSubTitle" = "Lütfen kameranıza erişim için uygulamaya izin veriniz.";
+
+"photosPermissionTitle" = "Galeri İzni";
+"photosPermissionSubTitle" = "Lütfen fotoğraf galerinize erişim için uygulamaya izin veriniz.";
+
+"permissionOk" = "Tamam";
+"permissionNotNow" = "Şimdi Değil";

@@ -39,6 +39,9 @@
 		BC9F2537270A17FC003C53AA /* CameraPermissionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9F2536270A17FC003C53AA /* CameraPermissionManager.swift */; };
 		BC9F253A270A19EC003C53AA /* PhotosPermissionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9F2539270A19EC003C53AA /* PhotosPermissionManager.swift */; };
 		BC9F253D270A1A97003C53AA /* PermissionViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9F253C270A1A97003C53AA /* PermissionViewFactory.swift */; };
+		BC9F2540270A32A2003C53AA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC9F2542270A32A2003C53AA /* Localizable.strings */; };
+		BC9F2545270A33DC003C53AA /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9F2544270A33DC003C53AA /* String+Extension.swift */; };
+		BC9F2548270A348F003C53AA /* PermissionLocalizables.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9F2547270A348F003C53AA /* PermissionLocalizables.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +98,10 @@
 		BC9F2536270A17FC003C53AA /* CameraPermissionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPermissionManager.swift; sourceTree = "<group>"; };
 		BC9F2539270A19EC003C53AA /* PhotosPermissionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosPermissionManager.swift; sourceTree = "<group>"; };
 		BC9F253C270A1A97003C53AA /* PermissionViewFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionViewFactory.swift; sourceTree = "<group>"; };
+		BC9F2541270A32A2003C53AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BC9F2543270A32B1003C53AA /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BC9F2544270A33DC003C53AA /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		BC9F2547270A348F003C53AA /* PermissionLocalizables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionLocalizables.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +163,7 @@
 				BC771E642703BAAB00BBBC6A /* Assets.xcassets */,
 				BC771E662703BAAB00BBBC6A /* LaunchScreen.storyboard */,
 				BC771E692703BAAB00BBBC6A /* Info.plist */,
+				BC9F2542270A32A2003C53AA /* Localizable.strings */,
 			);
 			path = HW2_HusnuTas;
 			sourceTree = "<group>";
@@ -211,6 +219,7 @@
 		BC771E922703D0EE00BBBC6A /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				BC9F2546270A3478003C53AA /* PermissionLocalizables */,
 				BC9F25292709F3CD003C53AA /* AssetHelpers */,
 				BC9F25102708AAAB003C53AA /* Extensions */,
 				BC9F250F2708AA8C003C53AA /* FontManagers */,
@@ -231,6 +240,7 @@
 			isa = PBXGroup;
 			children = (
 				BC9F25112708AAC5003C53AA /* UIView+Extensions.swift */,
+				BC9F2544270A33DC003C53AA /* String+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -348,6 +358,14 @@
 			path = PermissionViewFactory;
 			sourceTree = "<group>";
 		};
+		BC9F2546270A3478003C53AA /* PermissionLocalizables */ = {
+			isa = PBXGroup;
+			children = (
+				BC9F2547270A348F003C53AA /* PermissionLocalizables.swift */,
+			);
+			path = PermissionLocalizables;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -434,6 +452,7 @@
 			knownRegions = (
 				en,
 				Base,
+				tr,
 			);
 			mainGroup = BC771E4F2703BAA900BBBC6A;
 			productRefGroup = BC771E592703BAA900BBBC6A /* Products */;
@@ -453,6 +472,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC771E682703BAAB00BBBC6A /* LaunchScreen.storyboard in Resources */,
+				BC9F2540270A32A2003C53AA /* Localizable.strings in Resources */,
 				BC771E652703BAAB00BBBC6A /* Assets.xcassets in Resources */,
 				BC771E632703BAA900BBBC6A /* Main.storyboard in Resources */,
 			);
@@ -480,6 +500,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC9F2532270A14B1003C53AA /* PermissionManagerProtocol.swift in Sources */,
+				BC9F2548270A348F003C53AA /* PermissionLocalizables.swift in Sources */,
 				BC771E602703BAA900BBBC6A /* ViewController.swift in Sources */,
 				BC771E5C2703BAA900BBBC6A /* AppDelegate.swift in Sources */,
 				BC9F25222709D413003C53AA /* PermissionMainViewData.swift in Sources */,
@@ -502,6 +523,7 @@
 				BC771E942703D10B00BBBC6A /* FontManager.swift in Sources */,
 				BC9F250827078EA5003C53AA /* ActionButtonData.swift in Sources */,
 				BC771E8E2703BEA000BBBC6A /* ActionButton.swift in Sources */,
+				BC9F2545270A33DC003C53AA /* String+Extension.swift in Sources */,
 				BC9F2537270A17FC003C53AA /* CameraPermissionManager.swift in Sources */,
 				BC771E962703D11A00BBBC6A /* GenericValueProtocol.swift in Sources */,
 				BC9F25202709D3DF003C53AA /* PermissionMainView.swift in Sources */,
@@ -557,6 +579,15 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		BC9F2542270A32A2003C53AA /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC9F2541270A32A2003C53AA /* en */,
+				BC9F2543270A32B1003C53AA /* tr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -564,6 +595,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -625,6 +657,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";

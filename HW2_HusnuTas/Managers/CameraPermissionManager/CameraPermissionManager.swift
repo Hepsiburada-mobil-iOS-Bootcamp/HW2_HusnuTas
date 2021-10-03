@@ -13,9 +13,8 @@ class CameraPermissionManager: PermissionManagerProtocol {
         print("request")
     }
     
-    func getPermissionMainViewData() -> PermissionMainViewData {
-        return PermissionMainViewData(image: PermissionImages.camera.value, labelPackData: LabelPackComponentData(title: "Camera Permission", subTitle: "Would you please give permission to access your camera"), actionModuleData: ActionModuleData(confirmButtonData: ActionButtonData(text: "OK", buttonType: .filled(.smooth)), declineButtonData: ActionButtonData(text: "Not Now", buttonType: .outlined(.smooth))))
+    func getPermissionMainViewData(confirmWith confirmListener: @escaping VoidCompletionBlock, declineWith declineListener: @escaping VoidCompletionBlock) -> PermissionMainViewData {
+        return PermissionMainViewData(image: PermissionImages.camera.value, labelPackData: LabelPackComponentData(title: PermissionLocalizables.cameraPermissionTitle.value, subTitle: PermissionLocalizables.cameraPermissionSubTitle.value), actionModuleData: ActionModuleData(confirmButtonData: ActionButtonData(text: PermissionLocalizables.permissionOk.value, buttonType: .filled(.smooth)).setActionButtonListener(by: confirmListener), declineButtonData: ActionButtonData(text: PermissionLocalizables.permissionNotNow.value, buttonType: .outlined(.smooth)).setActionButtonListener(by: declineListener)))
     }
-    
     
 }

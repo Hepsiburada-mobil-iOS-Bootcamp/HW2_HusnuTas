@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         // create the buttons
         addActionButton()
         
@@ -38,11 +39,11 @@ class ViewController: UIViewController {
     }
     
     private func addActionButton() {
-        // create confirm button
+        // create camera button
         cameraButton = ActionButton()
         cameraButton.translatesAutoresizingMaskIntoConstraints = false
         
-        // confirmButton.delegate = self
+        //confirmButton.delegate = self
         
         view.addSubview(cameraButton)
         
@@ -54,7 +55,7 @@ class ViewController: UIViewController {
             cameraButton.centerYAnchor.constraint(equalTo: view.topAnchor, constant: 140)
         ])
         
-        // create decline button
+        // create photos button
         photosButton = ActionButton()
         photosButton.translatesAutoresizingMaskIntoConstraints = false
         

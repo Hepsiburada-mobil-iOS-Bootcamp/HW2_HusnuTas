@@ -21,6 +21,7 @@ class PermissionViewController: UIViewController {
         super.viewDidLoad()
 
         addPermissionMainView()
+        subscribeViewModelListeners()
     }
     
     private func addPermissionMainView() {
@@ -34,6 +35,14 @@ class PermissionViewController: UIViewController {
             permissionMainView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
             permissionMainView.bottomAnchor.constraint(equalTo: view.bottomAnchor)
         ])
+    }
+    
+    private func subscribeViewModelListeners() {
+        viewModel.listenManagerActions { [weak self] in
+            self?.dismiss(animated: true) {
+                print("dismissed")
+            }
+        }
     }
 
 
