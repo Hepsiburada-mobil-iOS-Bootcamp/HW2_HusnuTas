@@ -16,6 +16,17 @@
 		BC771E732703BAAB00BBBC6A /* HW2_HusnuTasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC771E722703BAAB00BBBC6A /* HW2_HusnuTasTests.swift */; };
 		BC771E7D2703BAAB00BBBC6A /* HW2_HusnuTasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC771E7C2703BAAB00BBBC6A /* HW2_HusnuTasUITests.swift */; };
 		BC771E7F2703BAAB00BBBC6A /* HW2_HusnuTasUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC771E7E2703BAAB00BBBC6A /* HW2_HusnuTasUITestsLaunchTests.swift */; };
+		BC771E8E2703BEA000BBBC6A /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC771E8D2703BEA000BBBC6A /* ActionButton.swift */; };
+		BC771E912703CC0500BBBC6A /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC771E902703CC0400BBBC6A /* BaseView.swift */; };
+		BC771E942703D10B00BBBC6A /* FontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC771E932703D10B00BBBC6A /* FontManager.swift */; };
+		BC771E962703D11A00BBBC6A /* GenericValueProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC771E952703D11A00BBBC6A /* GenericValueProtocol.swift */; };
+		BC9F250827078EA5003C53AA /* ActionButtonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9F250727078EA5003C53AA /* ActionButtonData.swift */; };
+		BC9F250A27079049003C53AA /* ActionButtonTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9F250927079049003C53AA /* ActionButtonTheme.swift */; };
+		BC9F250C2707906C003C53AA /* ActionButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9F250B2707906C003C53AA /* ActionButtonType.swift */; };
+		BC9F250E2707A77C003C53AA /* GenericBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9F250D2707A77C003C53AA /* GenericBaseView.swift */; };
+		BC9F25122708AAC5003C53AA /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9F25112708AAC5003C53AA /* UIView+Extensions.swift */; };
+		BC9F25152708D418003C53AA /* ActionModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9F25142708D418003C53AA /* ActionModule.swift */; };
+		BC9F25172708D44F003C53AA /* ActionModuleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9F25162708D44F003C53AA /* ActionModuleData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +60,17 @@
 		BC771E782703BAAB00BBBC6A /* HW2_HusnuTasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HW2_HusnuTasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC771E7C2703BAAB00BBBC6A /* HW2_HusnuTasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW2_HusnuTasUITests.swift; sourceTree = "<group>"; };
 		BC771E7E2703BAAB00BBBC6A /* HW2_HusnuTasUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW2_HusnuTasUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BC771E8D2703BEA000BBBC6A /* ActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
+		BC771E902703CC0400BBBC6A /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		BC771E932703D10B00BBBC6A /* FontManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontManager.swift; sourceTree = "<group>"; };
+		BC771E952703D11A00BBBC6A /* GenericValueProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericValueProtocol.swift; sourceTree = "<group>"; };
+		BC9F250727078EA5003C53AA /* ActionButtonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButtonData.swift; sourceTree = "<group>"; };
+		BC9F250927079049003C53AA /* ActionButtonTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButtonTheme.swift; sourceTree = "<group>"; };
+		BC9F250B2707906C003C53AA /* ActionButtonType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButtonType.swift; sourceTree = "<group>"; };
+		BC9F250D2707A77C003C53AA /* GenericBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericBaseView.swift; sourceTree = "<group>"; };
+		BC9F25112708AAC5003C53AA /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		BC9F25142708D418003C53AA /* ActionModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionModule.swift; sourceTree = "<group>"; };
+		BC9F25162708D44F003C53AA /* ActionModuleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionModuleData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +121,9 @@
 		BC771E5A2703BAA900BBBC6A /* HW2_HusnuTas */ = {
 			isa = PBXGroup;
 			children = (
+				BC771E922703D0EE00BBBC6A /* Utils */,
+				BC771E8F2703CBE300BBBC6A /* BaseComponent */,
+				BC771E8B2703BE6500BBBC6A /* Components */,
 				BC771E5B2703BAA900BBBC6A /* AppDelegate.swift */,
 				BC771E5D2703BAA900BBBC6A /* SceneDelegate.swift */,
 				BC771E5F2703BAA900BBBC6A /* ViewController.swift */,
@@ -125,6 +150,70 @@
 				BC771E7E2703BAAB00BBBC6A /* HW2_HusnuTasUITestsLaunchTests.swift */,
 			);
 			path = HW2_HusnuTasUITests;
+			sourceTree = "<group>";
+		};
+		BC771E8B2703BE6500BBBC6A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				BC9F25132708D400003C53AA /* ActionModuleComponent */,
+				BC771E8C2703BE6E00BBBC6A /* ActionButtonComponent */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		BC771E8C2703BE6E00BBBC6A /* ActionButtonComponent */ = {
+			isa = PBXGroup;
+			children = (
+				BC771E8D2703BEA000BBBC6A /* ActionButton.swift */,
+				BC9F250727078EA5003C53AA /* ActionButtonData.swift */,
+				BC9F250927079049003C53AA /* ActionButtonTheme.swift */,
+				BC9F250B2707906C003C53AA /* ActionButtonType.swift */,
+			);
+			path = ActionButtonComponent;
+			sourceTree = "<group>";
+		};
+		BC771E8F2703CBE300BBBC6A /* BaseComponent */ = {
+			isa = PBXGroup;
+			children = (
+				BC771E902703CC0400BBBC6A /* BaseView.swift */,
+				BC9F250D2707A77C003C53AA /* GenericBaseView.swift */,
+			);
+			path = BaseComponent;
+			sourceTree = "<group>";
+		};
+		BC771E922703D0EE00BBBC6A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				BC9F25102708AAAB003C53AA /* Extensions */,
+				BC9F250F2708AA8C003C53AA /* FontManagers */,
+				BC771E952703D11A00BBBC6A /* GenericValueProtocol.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		BC9F250F2708AA8C003C53AA /* FontManagers */ = {
+			isa = PBXGroup;
+			children = (
+				BC771E932703D10B00BBBC6A /* FontManager.swift */,
+			);
+			path = FontManagers;
+			sourceTree = "<group>";
+		};
+		BC9F25102708AAAB003C53AA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BC9F25112708AAC5003C53AA /* UIView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BC9F25132708D400003C53AA /* ActionModuleComponent */ = {
+			isa = PBXGroup;
+			children = (
+				BC9F25142708D418003C53AA /* ActionModule.swift */,
+				BC9F25162708D44F003C53AA /* ActionModuleData.swift */,
+			);
+			path = ActionModuleComponent;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +349,18 @@
 			files = (
 				BC771E602703BAA900BBBC6A /* ViewController.swift in Sources */,
 				BC771E5C2703BAA900BBBC6A /* AppDelegate.swift in Sources */,
+				BC771E912703CC0500BBBC6A /* BaseView.swift in Sources */,
+				BC9F25172708D44F003C53AA /* ActionModuleData.swift in Sources */,
+				BC9F250C2707906C003C53AA /* ActionButtonType.swift in Sources */,
 				BC771E5E2703BAA900BBBC6A /* SceneDelegate.swift in Sources */,
+				BC9F250E2707A77C003C53AA /* GenericBaseView.swift in Sources */,
+				BC9F25152708D418003C53AA /* ActionModule.swift in Sources */,
+				BC9F25122708AAC5003C53AA /* UIView+Extensions.swift in Sources */,
+				BC9F250A27079049003C53AA /* ActionButtonTheme.swift in Sources */,
+				BC771E942703D10B00BBBC6A /* FontManager.swift in Sources */,
+				BC9F250827078EA5003C53AA /* ActionButtonData.swift in Sources */,
+				BC771E8E2703BEA000BBBC6A /* ActionButton.swift in Sources */,
+				BC771E962703D11A00BBBC6A /* GenericValueProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
