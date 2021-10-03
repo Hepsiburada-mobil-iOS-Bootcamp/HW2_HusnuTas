@@ -16,6 +16,32 @@
 		BC771E732703BAAB00BBBC6A /* HW2_HusnuTasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC771E722703BAAB00BBBC6A /* HW2_HusnuTasTests.swift */; };
 		BC771E7D2703BAAB00BBBC6A /* HW2_HusnuTasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC771E7C2703BAAB00BBBC6A /* HW2_HusnuTasUITests.swift */; };
 		BC771E7F2703BAAB00BBBC6A /* HW2_HusnuTasUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC771E7E2703BAAB00BBBC6A /* HW2_HusnuTasUITestsLaunchTests.swift */; };
+		BC771E8E2703BEA000BBBC6A /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC771E8D2703BEA000BBBC6A /* ActionButton.swift */; };
+		BC771E912703CC0500BBBC6A /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC771E902703CC0400BBBC6A /* BaseView.swift */; };
+		BC771E942703D10B00BBBC6A /* FontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC771E932703D10B00BBBC6A /* FontManager.swift */; };
+		BC771E962703D11A00BBBC6A /* GenericValueProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC771E952703D11A00BBBC6A /* GenericValueProtocol.swift */; };
+		BC9F250827078EA5003C53AA /* ActionButtonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9F250727078EA5003C53AA /* ActionButtonData.swift */; };
+		BC9F250A27079049003C53AA /* ActionButtonTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9F250927079049003C53AA /* ActionButtonTheme.swift */; };
+		BC9F250C2707906C003C53AA /* ActionButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9F250B2707906C003C53AA /* ActionButtonType.swift */; };
+		BC9F250E2707A77C003C53AA /* GenericBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9F250D2707A77C003C53AA /* GenericBaseView.swift */; };
+		BC9F25122708AAC5003C53AA /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9F25112708AAC5003C53AA /* UIView+Extensions.swift */; };
+		BC9F25152708D418003C53AA /* ActionModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9F25142708D418003C53AA /* ActionModule.swift */; };
+		BC9F25172708D44F003C53AA /* ActionModuleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9F25162708D44F003C53AA /* ActionModuleData.swift */; };
+		BC9F251A2709CA0F003C53AA /* LabelPackComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9F25192709CA0F003C53AA /* LabelPackComponent.swift */; };
+		BC9F251C2709CA1B003C53AA /* LabelPackComponentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9F251B2709CA1B003C53AA /* LabelPackComponentData.swift */; };
+		BC9F25202709D3DF003C53AA /* PermissionMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9F251F2709D3DF003C53AA /* PermissionMainView.swift */; };
+		BC9F25222709D413003C53AA /* PermissionMainViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9F25212709D413003C53AA /* PermissionMainViewData.swift */; };
+		BC9F25282709E4B5003C53AA /* PermissionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9F25272709E4B5003C53AA /* PermissionViewController.swift */; };
+		BC9F252C2709F3F6003C53AA /* PermissionImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9F252B2709F3F6003C53AA /* PermissionImages.swift */; };
+		BC9F252E270A13C3003C53AA /* PermissionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9F252D270A13C3003C53AA /* PermissionViewModel.swift */; };
+		BC9F2532270A14B1003C53AA /* PermissionManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9F2531270A14B1003C53AA /* PermissionManagerProtocol.swift */; };
+		BC9F2534270A1721003C53AA /* PermissionViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9F2533270A1721003C53AA /* PermissionViewBuilder.swift */; };
+		BC9F2537270A17FC003C53AA /* CameraPermissionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9F2536270A17FC003C53AA /* CameraPermissionManager.swift */; };
+		BC9F253A270A19EC003C53AA /* PhotosPermissionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9F2539270A19EC003C53AA /* PhotosPermissionManager.swift */; };
+		BC9F253D270A1A97003C53AA /* PermissionViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9F253C270A1A97003C53AA /* PermissionViewFactory.swift */; };
+		BC9F2540270A32A2003C53AA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC9F2542270A32A2003C53AA /* Localizable.strings */; };
+		BC9F2545270A33DC003C53AA /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9F2544270A33DC003C53AA /* String+Extension.swift */; };
+		BC9F2548270A348F003C53AA /* PermissionLocalizables.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9F2547270A348F003C53AA /* PermissionLocalizables.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +75,33 @@
 		BC771E782703BAAB00BBBC6A /* HW2_HusnuTasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HW2_HusnuTasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC771E7C2703BAAB00BBBC6A /* HW2_HusnuTasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW2_HusnuTasUITests.swift; sourceTree = "<group>"; };
 		BC771E7E2703BAAB00BBBC6A /* HW2_HusnuTasUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW2_HusnuTasUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BC771E8D2703BEA000BBBC6A /* ActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
+		BC771E902703CC0400BBBC6A /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		BC771E932703D10B00BBBC6A /* FontManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontManager.swift; sourceTree = "<group>"; };
+		BC771E952703D11A00BBBC6A /* GenericValueProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericValueProtocol.swift; sourceTree = "<group>"; };
+		BC9F250727078EA5003C53AA /* ActionButtonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButtonData.swift; sourceTree = "<group>"; };
+		BC9F250927079049003C53AA /* ActionButtonTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButtonTheme.swift; sourceTree = "<group>"; };
+		BC9F250B2707906C003C53AA /* ActionButtonType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButtonType.swift; sourceTree = "<group>"; };
+		BC9F250D2707A77C003C53AA /* GenericBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericBaseView.swift; sourceTree = "<group>"; };
+		BC9F25112708AAC5003C53AA /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		BC9F25142708D418003C53AA /* ActionModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionModule.swift; sourceTree = "<group>"; };
+		BC9F25162708D44F003C53AA /* ActionModuleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionModuleData.swift; sourceTree = "<group>"; };
+		BC9F25192709CA0F003C53AA /* LabelPackComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelPackComponent.swift; sourceTree = "<group>"; };
+		BC9F251B2709CA1B003C53AA /* LabelPackComponentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelPackComponentData.swift; sourceTree = "<group>"; };
+		BC9F251F2709D3DF003C53AA /* PermissionMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionMainView.swift; sourceTree = "<group>"; };
+		BC9F25212709D413003C53AA /* PermissionMainViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionMainViewData.swift; sourceTree = "<group>"; };
+		BC9F25272709E4B5003C53AA /* PermissionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionViewController.swift; sourceTree = "<group>"; };
+		BC9F252B2709F3F6003C53AA /* PermissionImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionImages.swift; sourceTree = "<group>"; };
+		BC9F252D270A13C3003C53AA /* PermissionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionViewModel.swift; sourceTree = "<group>"; };
+		BC9F2531270A14B1003C53AA /* PermissionManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionManagerProtocol.swift; sourceTree = "<group>"; };
+		BC9F2533270A1721003C53AA /* PermissionViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionViewBuilder.swift; sourceTree = "<group>"; };
+		BC9F2536270A17FC003C53AA /* CameraPermissionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPermissionManager.swift; sourceTree = "<group>"; };
+		BC9F2539270A19EC003C53AA /* PhotosPermissionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosPermissionManager.swift; sourceTree = "<group>"; };
+		BC9F253C270A1A97003C53AA /* PermissionViewFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionViewFactory.swift; sourceTree = "<group>"; };
+		BC9F2541270A32A2003C53AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BC9F2543270A32B1003C53AA /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BC9F2544270A33DC003C53AA /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		BC9F2547270A348F003C53AA /* PermissionLocalizables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionLocalizables.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +152,18 @@
 		BC771E5A2703BAA900BBBC6A /* HW2_HusnuTas */ = {
 			isa = PBXGroup;
 			children = (
+				BC9F252F270A148D003C53AA /* Managers */,
+				BC9F25232709E46C003C53AA /* Scenes */,
+				BC771E922703D0EE00BBBC6A /* Utils */,
+				BC771E8F2703CBE300BBBC6A /* BaseComponent */,
+				BC771E8B2703BE6500BBBC6A /* Components */,
 				BC771E5B2703BAA900BBBC6A /* AppDelegate.swift */,
 				BC771E5D2703BAA900BBBC6A /* SceneDelegate.swift */,
-				BC771E5F2703BAA900BBBC6A /* ViewController.swift */,
 				BC771E612703BAA900BBBC6A /* Main.storyboard */,
 				BC771E642703BAAB00BBBC6A /* Assets.xcassets */,
 				BC771E662703BAAB00BBBC6A /* LaunchScreen.storyboard */,
 				BC771E692703BAAB00BBBC6A /* Info.plist */,
+				BC9F2542270A32A2003C53AA /* Localizable.strings */,
 			);
 			path = HW2_HusnuTas;
 			sourceTree = "<group>";
@@ -125,6 +183,187 @@
 				BC771E7E2703BAAB00BBBC6A /* HW2_HusnuTasUITestsLaunchTests.swift */,
 			);
 			path = HW2_HusnuTasUITests;
+			sourceTree = "<group>";
+		};
+		BC771E8B2703BE6500BBBC6A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				BC9F251E2709D3B6003C53AA /* PermissionMainComponent */,
+				BC9F25182709C9F1003C53AA /* LabelPackComponent */,
+				BC9F25132708D400003C53AA /* ActionModuleComponent */,
+				BC771E8C2703BE6E00BBBC6A /* ActionButtonComponent */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		BC771E8C2703BE6E00BBBC6A /* ActionButtonComponent */ = {
+			isa = PBXGroup;
+			children = (
+				BC771E8D2703BEA000BBBC6A /* ActionButton.swift */,
+				BC9F250727078EA5003C53AA /* ActionButtonData.swift */,
+				BC9F250927079049003C53AA /* ActionButtonTheme.swift */,
+				BC9F250B2707906C003C53AA /* ActionButtonType.swift */,
+			);
+			path = ActionButtonComponent;
+			sourceTree = "<group>";
+		};
+		BC771E8F2703CBE300BBBC6A /* BaseComponent */ = {
+			isa = PBXGroup;
+			children = (
+				BC771E902703CC0400BBBC6A /* BaseView.swift */,
+				BC9F250D2707A77C003C53AA /* GenericBaseView.swift */,
+			);
+			path = BaseComponent;
+			sourceTree = "<group>";
+		};
+		BC771E922703D0EE00BBBC6A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				BC9F2546270A3478003C53AA /* PermissionLocalizables */,
+				BC9F25292709F3CD003C53AA /* AssetHelpers */,
+				BC9F25102708AAAB003C53AA /* Extensions */,
+				BC9F250F2708AA8C003C53AA /* FontManagers */,
+				BC771E952703D11A00BBBC6A /* GenericValueProtocol.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		BC9F250F2708AA8C003C53AA /* FontManagers */ = {
+			isa = PBXGroup;
+			children = (
+				BC771E932703D10B00BBBC6A /* FontManager.swift */,
+			);
+			path = FontManagers;
+			sourceTree = "<group>";
+		};
+		BC9F25102708AAAB003C53AA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BC9F25112708AAC5003C53AA /* UIView+Extensions.swift */,
+				BC9F2544270A33DC003C53AA /* String+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BC9F25132708D400003C53AA /* ActionModuleComponent */ = {
+			isa = PBXGroup;
+			children = (
+				BC9F25142708D418003C53AA /* ActionModule.swift */,
+				BC9F25162708D44F003C53AA /* ActionModuleData.swift */,
+			);
+			path = ActionModuleComponent;
+			sourceTree = "<group>";
+		};
+		BC9F25182709C9F1003C53AA /* LabelPackComponent */ = {
+			isa = PBXGroup;
+			children = (
+				BC9F25192709CA0F003C53AA /* LabelPackComponent.swift */,
+				BC9F251B2709CA1B003C53AA /* LabelPackComponentData.swift */,
+			);
+			path = LabelPackComponent;
+			sourceTree = "<group>";
+		};
+		BC9F251E2709D3B6003C53AA /* PermissionMainComponent */ = {
+			isa = PBXGroup;
+			children = (
+				BC9F251F2709D3DF003C53AA /* PermissionMainView.swift */,
+				BC9F25212709D413003C53AA /* PermissionMainViewData.swift */,
+			);
+			path = PermissionMainComponent;
+			sourceTree = "<group>";
+		};
+		BC9F25232709E46C003C53AA /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				BC9F25242709E475003C53AA /* Main */,
+				BC9F25262709E483003C53AA /* Permission */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		BC9F25242709E475003C53AA /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				BC771E5F2703BAA900BBBC6A /* ViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		BC9F25262709E483003C53AA /* Permission */ = {
+			isa = PBXGroup;
+			children = (
+				BC9F25272709E4B5003C53AA /* PermissionViewController.swift */,
+				BC9F252D270A13C3003C53AA /* PermissionViewModel.swift */,
+				BC9F2533270A1721003C53AA /* PermissionViewBuilder.swift */,
+			);
+			path = Permission;
+			sourceTree = "<group>";
+		};
+		BC9F25292709F3CD003C53AA /* AssetHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				BC9F252A2709F3D8003C53AA /* PermissionImages */,
+			);
+			path = AssetHelpers;
+			sourceTree = "<group>";
+		};
+		BC9F252A2709F3D8003C53AA /* PermissionImages */ = {
+			isa = PBXGroup;
+			children = (
+				BC9F252B2709F3F6003C53AA /* PermissionImages.swift */,
+			);
+			path = PermissionImages;
+			sourceTree = "<group>";
+		};
+		BC9F252F270A148D003C53AA /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				BC9F253B270A1A7A003C53AA /* PermissionViewFactory */,
+				BC9F2538270A19C9003C53AA /* PhotosPermissionManager */,
+				BC9F2535270A17E4003C53AA /* CameraPermissionManager */,
+				BC9F2530270A1496003C53AA /* PermissionProtocols */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		BC9F2530270A1496003C53AA /* PermissionProtocols */ = {
+			isa = PBXGroup;
+			children = (
+				BC9F2531270A14B1003C53AA /* PermissionManagerProtocol.swift */,
+			);
+			path = PermissionProtocols;
+			sourceTree = "<group>";
+		};
+		BC9F2535270A17E4003C53AA /* CameraPermissionManager */ = {
+			isa = PBXGroup;
+			children = (
+				BC9F2536270A17FC003C53AA /* CameraPermissionManager.swift */,
+			);
+			path = CameraPermissionManager;
+			sourceTree = "<group>";
+		};
+		BC9F2538270A19C9003C53AA /* PhotosPermissionManager */ = {
+			isa = PBXGroup;
+			children = (
+				BC9F2539270A19EC003C53AA /* PhotosPermissionManager.swift */,
+			);
+			path = PhotosPermissionManager;
+			sourceTree = "<group>";
+		};
+		BC9F253B270A1A7A003C53AA /* PermissionViewFactory */ = {
+			isa = PBXGroup;
+			children = (
+				BC9F253C270A1A97003C53AA /* PermissionViewFactory.swift */,
+			);
+			path = PermissionViewFactory;
+			sourceTree = "<group>";
+		};
+		BC9F2546270A3478003C53AA /* PermissionLocalizables */ = {
+			isa = PBXGroup;
+			children = (
+				BC9F2547270A348F003C53AA /* PermissionLocalizables.swift */,
+			);
+			path = PermissionLocalizables;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,6 +452,7 @@
 			knownRegions = (
 				en,
 				Base,
+				tr,
 			);
 			mainGroup = BC771E4F2703BAA900BBBC6A;
 			productRefGroup = BC771E592703BAA900BBBC6A /* Products */;
@@ -232,6 +472,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC771E682703BAAB00BBBC6A /* LaunchScreen.storyboard in Resources */,
+				BC9F2540270A32A2003C53AA /* Localizable.strings in Resources */,
 				BC771E652703BAAB00BBBC6A /* Assets.xcassets in Resources */,
 				BC771E632703BAA900BBBC6A /* Main.storyboard in Resources */,
 			);
@@ -258,9 +499,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC9F2532270A14B1003C53AA /* PermissionManagerProtocol.swift in Sources */,
+				BC9F2548270A348F003C53AA /* PermissionLocalizables.swift in Sources */,
 				BC771E602703BAA900BBBC6A /* ViewController.swift in Sources */,
 				BC771E5C2703BAA900BBBC6A /* AppDelegate.swift in Sources */,
+				BC9F25222709D413003C53AA /* PermissionMainViewData.swift in Sources */,
+				BC9F25282709E4B5003C53AA /* PermissionViewController.swift in Sources */,
+				BC771E912703CC0500BBBC6A /* BaseView.swift in Sources */,
+				BC9F251C2709CA1B003C53AA /* LabelPackComponentData.swift in Sources */,
+				BC9F2534270A1721003C53AA /* PermissionViewBuilder.swift in Sources */,
+				BC9F252E270A13C3003C53AA /* PermissionViewModel.swift in Sources */,
+				BC9F25172708D44F003C53AA /* ActionModuleData.swift in Sources */,
+				BC9F253A270A19EC003C53AA /* PhotosPermissionManager.swift in Sources */,
+				BC9F250C2707906C003C53AA /* ActionButtonType.swift in Sources */,
+				BC9F253D270A1A97003C53AA /* PermissionViewFactory.swift in Sources */,
+				BC9F252C2709F3F6003C53AA /* PermissionImages.swift in Sources */,
 				BC771E5E2703BAA900BBBC6A /* SceneDelegate.swift in Sources */,
+				BC9F251A2709CA0F003C53AA /* LabelPackComponent.swift in Sources */,
+				BC9F250E2707A77C003C53AA /* GenericBaseView.swift in Sources */,
+				BC9F25152708D418003C53AA /* ActionModule.swift in Sources */,
+				BC9F25122708AAC5003C53AA /* UIView+Extensions.swift in Sources */,
+				BC9F250A27079049003C53AA /* ActionButtonTheme.swift in Sources */,
+				BC771E942703D10B00BBBC6A /* FontManager.swift in Sources */,
+				BC9F250827078EA5003C53AA /* ActionButtonData.swift in Sources */,
+				BC771E8E2703BEA000BBBC6A /* ActionButton.swift in Sources */,
+				BC9F2545270A33DC003C53AA /* String+Extension.swift in Sources */,
+				BC9F2537270A17FC003C53AA /* CameraPermissionManager.swift in Sources */,
+				BC771E962703D11A00BBBC6A /* GenericValueProtocol.swift in Sources */,
+				BC9F25202709D3DF003C53AA /* PermissionMainView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +579,15 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		BC9F2542270A32A2003C53AA /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC9F2541270A32A2003C53AA /* en */,
+				BC9F2543270A32B1003C53AA /* tr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -320,6 +595,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -381,6 +657,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
