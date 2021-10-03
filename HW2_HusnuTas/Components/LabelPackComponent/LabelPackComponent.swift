@@ -40,6 +40,7 @@ class LabelPackComponent: GenericBaseView<LabelPackComponentData> {
         temp.numberOfLines = 0
         temp.contentMode = .center
         temp.font = FontManager.regular(16).value
+        temp.textAlignment = .center
         return temp
     }()
     

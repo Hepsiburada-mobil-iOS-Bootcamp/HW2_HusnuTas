@@ -11,16 +11,13 @@ class ViewController: UIViewController {
     
     private var cameraButton: ActionButton!
     private var photosButton: ActionButton!
-    private var actionModule: ActionModule!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // create the buttons
         addActionButton()
-        addActionModule()
-        setupActionModuleData()
         
-        // set data for the buttons
+        // set the data for the buttons
         let cameraButtonData = ActionButtonData(text: "Camera", buttonType: .filled(.smooth)).setActionButtonListener(by: cameraButtonHandler)
         self.cameraButton.setData(by: cameraButtonData)
         
@@ -29,11 +26,15 @@ class ViewController: UIViewController {
     }
     
     lazy var cameraButtonHandler: VoidCompletionBlock = {
-        print("camera")
+        self.present(PermissionViewBuilder.build(with: .camera), animated: true) {
+            print("camera permissionView presented")
+        }
     }
     
     lazy var photosButtonHandler: VoidCompletionBlock = {
-        print("photos")
+        self.present(PermissionViewBuilder.build(with: .photos), animated: true) {
+            print("photos permissionView presented")
+        }
     }
     
     private func addActionButton() {
@@ -41,7 +42,7 @@ class ViewController: UIViewController {
         cameraButton = ActionButton()
         cameraButton.translatesAutoresizingMaskIntoConstraints = false
         
-//        confirmButton.delegate = self
+        // confirmButton.delegate = self
         
         view.addSubview(cameraButton)
         
@@ -64,32 +65,8 @@ class ViewController: UIViewController {
             photosButton.widthAnchor.constraint(equalToConstant: 120),
             
             photosButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            photosButton.centerYAnchor.constraint(equalTo: cameraButton.bottomAnchor, constant: 60)
+            photosButton.centerYAnchor.constraint(equalTo: cameraButton.bottomAnchor, constant: 50)
         ])
-    }
-    
-    private func addActionModule() {
-        actionModule = ActionModule()
-        actionModule.translatesAutoresizingMaskIntoConstraints = false
-        
-        view.addSubview(actionModule)
-        
-        NSLayoutConstraint.activate([
-            actionModule.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            actionModule.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: 200)
-        ])
-    }
-    
-    private func setupActionModuleData() {
-        let confirmButton = ActionButtonData(text: "OK", buttonType: .filled(.smooth)).setActionButtonListener {
-            print("confirm")
-        }
-        
-        let declineButton = ActionButtonData(text: "Not Now", buttonType: .outlined(.smooth)).setActionButtonListener {
-            print("decline")
-        }
-        
-        actionModule.setData(by: ActionModuleData(confirmButtonData: confirmButton, declineButtonData: declineButton))
     }
 
 
